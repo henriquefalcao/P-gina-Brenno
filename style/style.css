@@ -16,6 +16,8 @@
 
  .menu {
      background-color: red;
+     position: fixed;
+     width: 100vw;
  }
 
  .menu li {
