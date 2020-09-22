@@ -15,7 +15,7 @@ body {
     top: 0%;
     z-index: 1;
     width: 100vw;
-    background-color: rgb(255, 0, 0);
+    background-color: rgba(228, 30, 44, 1);
 }
 
 .topnav .icon {
@@ -24,22 +24,29 @@ body {
 
 .topnav a {
     float: left;
-    color: #f2f2f2;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 1.5em;
-    font-family: 'Squada One', cursive;
+    text-shadow: 0em 0em 0em rgb(0, 0, 0);
+    /*font-size: 1.5em;*/
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }
 
 .topnav a:hover {
     background-color: rgb(255, 255, 255);
-    color: rgb(255, 0, 0);
+    color: rgb(218, 0, 31);
 }
 
 .topnav a.active {
-    background-color: #ffffff;
-    color: rgb(255, 0, 0);
+    background-color: rgba(81, 168, 71, 1);
+    color: rgb(248, 194, 53);
+}
+
+.topnav a.active:hover {
+    background-color: rgb(248, 194, 53);
+    color: rgb(81, 168, 71)
 }
 
 .topnav-right {
@@ -79,6 +86,7 @@ body {
     justify-content: left;
     align-items: center;
     border: 50%;
+    padding-left: 8em;
 }
 
 .site-title {
@@ -99,14 +107,31 @@ body {
     background: url(/img/foto14-1920x1280.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    /*background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(228, 30, 44, 0.5)), url(/img/foto14-1920x1280.jpg);*/
 }
 
 .trajetoria {
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(255, 255, 255);
+    text-align: justify;
+}
+
+.trajetoria .tl01 {
+    float: left;
+    margin-right: 1em;
+}
+
+.trajetoria .tl02 {
+    float: right;
+    margin-left: 1em;
+}
+
+.trajetoria img {
+    border-radius: 50%;
+    clip-path: polygon(100% 0, 100% 65%, 0 65%, 0 100%, 100% 100%, 100% 75%, 0 75%, 0 0);
 }
 
 .ideias {
-    background-color: rgb(255, 127, 0);
+    background-color: rgb(255, 255, 255);
 }
 
 .olinda {
@@ -123,44 +148,26 @@ body {
 
 .contato,
 .ajudar,
-.olinda,
+.coletiva,
 .ideias,
 .trajetoria {
     padding-top: 4em;
     padding-left: 1em;
     padding-right: 2em;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     min-height: 100vh;
 }
 
 .contato h2,
 .ajudar h2,
-.olinda h2,
+.coletiva h2,
 .ideias h2,
 .trajetoria h2 {
     width: auto;
     height: auto;
     margin-bottom: 1.5em;
-}
-
-.bg01 {
-    background: url(/img/PlanodeFundo.png);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: cover;
-    border-radius: 5px;
-}
-
-.container-top {
-    background-color: rgb(255, 0, 0);
-    border-radius: 5px;
-}
-
-.container-top h2 {
-    color: white;
-    font-family: 'Roboto Condensed', sans-serif;
-    text-align: right;
-    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }
 
 .footer {
@@ -168,216 +175,111 @@ body {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgba(255, 0, 0, 0.7);
+    background-color: rgba(228, 30, 44, 1);
     color: white;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
 
 
-/* Início da timeline*/
+/* Slideshow container */
 
-
-/* Linha vertical */
-
-.timeline {
+.slideshow-container {
     position: relative;
-    max-width: 1200px;
-    margin: 0 auto;
+    background: rgba(233, 233, 233, 0.7);
 }
 
 
-/* Características da linha vertical da timeline */
+/* Slides */
 
-.timeline::after {
-    content: '';
-    position: absolute;
-    width: 6px;
-    background-color: rgba(200, 200, 200, 0.7);
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    margin-left: -3px;
-}
-
-
-/* Container around content */
-
-.container {
-    padding: 10px 40px;
-    position: relative;
-    background-color: inherit;
-    width: 50%;
-}
-
-
-/* Características dos círculos */
-
-.container::after {
-    content: '';
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    right: -17px;
-    background-color: rgb(255, 255, 255);
-    border: 4px solid #ff0000;
-    top: 15px;
-    border-radius: 50%;
-    z-index: 1;
-}
-
-
-/* Place the container to the left */
-
-.left {
-    left: 0;
-}
-
-
-/* Place the container to the right */
-
-.right {
-    left: 50%;
-}
-
-
-/* Add arrows to the left container (pointing right) */
-
-.left::before {
-    content: " ";
-    height: 0;
-    position: absolute;
-    top: 22px;
-    width: 0;
-    z-index: 1;
-    right: 30px;
-    border: medium solid white;
-    border-width: 10px 0 10px 10px;
-    border-color: transparent transparent transparent rgba(200, 200, 200, 0.7);
-}
-
-
-/* Add arrows to the right container (pointing left) */
-
-.right::before {
-    content: " ";
-    height: 0;
-    position: absolute;
-    top: 22px;
-    width: 0;
-    z-index: 1;
-    left: 30px;
-    border: medium solid white;
-    border-width: 10px 10px 10px 0;
-    border-color: transparent rgba(200, 200, 200, 0.7) transparent transparent;
-}
-
-
-/* Fix the circle for containers on the right side */
-
-.right::after {
-    left: -16px;
-}
-
-
-/* The actual content */
-
-.content {
-    padding: 5px 5px;
-    background-color: rgba(200, 200, 200, 0.7);
-    position: relative;
-    border-radius: 5px;
-}
-
-
-/* Media queries - Responsive timeline on screens less than 600px wide */
-
-@media screen and (max-width: 600px) {
-    /* Place the timelime to the left */
-    .timeline::after {
-        left: 31px;
-    }
-    /* Full-width containers */
-    .container {
-        width: 100%;
-        padding-left: 70px;
-        padding-right: 25px;
-    }
-    /* Make sure that all arrows are pointing leftwards */
-    .container::before {
-        left: 60px;
-        border: medium solid rgb(85, 66, 66);
-        border-width: 10px 10px 10px 0;
-        border-color: transparent rgb(148, 0, 0) transparent transparent;
-    }
-    /* Make sure all circles are at the same spot */
-    .left::after,
-    .right::after {
-        left: 15px;
-    }
-    /* Make all right containers behave like the left ones */
-    .right {
-        left: 0%;
-    }
-}
-
-
-/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
-
-.flip-card {
-    background-color: transparent;
-    width: 400px;
-    height: 200px;
-    border: 0px solid #f1f1f1;
-    perspective: 1000px;
-    /* Remove this if you don't want the 3D effect */
-}
-
-
-/* This container is needed to position the front and back side */
-
-.flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
+.mySlides {
+    display: none;
+    padding: 0.2em;
     text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
+}
+
+.video {
+    height: 50vh;
+    width: 40vw;
 }
 
 
-/* Do an horizontal flip when you move the mouse over the flip box container */
+/* Next & previous buttons */
 
-.flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-}
-
-
-/* Position the front and back side */
-
-.flip-card-front,
-.flip-card-back {
+.prev,
+.next {
+    cursor: pointer;
     position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    /* Safari */
-    backface-visibility: hidden;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
 }
 
 
-/* Style the front side (fallback if image is missing) */
+/* Position the "next button" to the right */
 
-.flip-card-front {
+.next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+
+/* The dot/bullet/indicator container */
+
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+}
+
+
+/* The dots/bullets/indicators */
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
     background-color: #bbb;
-    color: black;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
 }
 
 
-/* Style the back side */
+/* Add a background color to the active dot/circle */
 
-.flip-card-back {
-    background-color: rgb(255, 0, 0);
-    color: white;
-    transform: rotateY(180deg);
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+
+/* Add an italic font style to all quotes */
+
+q {
+    font-style: italic;
+}
+
+
+/* Add a blue color to the author */
+
+.descricao {
+    color: rgb(0, 0, 0);
 }

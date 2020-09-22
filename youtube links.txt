@@ -1,0 +1,155 @@
+width="853" height="480"
+
+<div class="linha">
+            <div class="coluna">
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/fHo5BhP_Q8Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="container">
+                        <h4><b>VAMOS FALAR SOBRE OLINDA</b></h4>
+                        <p>Abrimos hoje a temporada de vídeos curtinhos para falar sobre Olinda, o Brasil e o Mundo! Economia vai abrindo a série e trago os dados da pesquisa @MinEconomia a qual mostra o saldo de 1,2 milhões de desempregados nos últimos
+                            6 meses!</p>
+                    </div>
+                </div>
+                <div class="espaco">
+                    <hr>
+                </div>
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/jbr6CkoMJlQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="container">
+                        <h4><b>A NOSSA PRÉ-CANDIDATURA É PRA VALER</b></h4>
+                        <p>A nossa pré-candidatura é pra valer, segue seu ritmo e vamos avançando. Por enquanto tenho dividido o tempo com a minha jornada de trabalho no BB onde tenho uma missão até 15 de agosto. Até lá, seguiremos conversando e construindo
+                            uma plataforma plural, consistente e prática!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="coluna">
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/fHo5BhP_Q8Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="container">
+                        <h4><b>DIA DOS BANCÁRIOS E BANCÁRIAS</b></h4>
+                        <p>28 de agosto - Dia dos Bancários! Trago o meu abraço aos meus companheiros e companheiras que estão fazendo a diferença nesse momento tão difícil para a nossa gente brasileira! Estamos juntos, estamos na luta, estamos firmes!</p>
+                    </div>
+                </div>
+                <div class="espaco">
+                    <hr>
+                </div>
+
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/ZRs713JJ0Qo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="container">
+                        <h4><b>IMPACTOS DO DESEMPREGO</b></h4>
+                        <p>
+                            Qual o impacto do desemprego na vida das cidades? É esse o 'mote' da nossa conversa de hoje! A crise econômica que se arrasta nos últimos anos provoca efeitos que estão muito próximos das nossa vidas, confiram! #Olinda #Brasil #Economia #Desemprego
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="coluna">
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/9Fs7h45no9g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="container">
+                        <h4><b>SERVIÇOS PÚBLICOS DE QUALIDADE</b></h4>
+                        <p>Hoje a nossa conversa é sobre Serviços Públicos de Qualidade! Tem nome bonito e faz muito bem a todos mas é preciso fiscalizar e se manter atento para que os agentes responsáveis possam cuidar disso.</p>
+                    </div>
+                </div>
+                <div class="espaco">
+                    <hr>
+                </div>
+
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/QYL2UzvBMuM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="container">
+                        <h4><b>SOLIDARIEDADE AOS BANCÁRIOS</b></h4>
+                        <p>Seguimos na luta e hoje acontece mais uma rodada de negociação da Campanha Salarial dos Bancários. É preciso dizer que mesmo com lucros bilionários, os banqueiros querem cortar direitos dos trabalhadores! Os bancários merecem respeito!
+                            #BancosExploram #Bancarios</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="coluna">
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/c7rbnbHyXW4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="container">
+                        <h4><b>SOLIDARIEDADE AOS BANCÁRIOS</b></h4>
+                        <p>Seguimos na luta e hoje acontece mais uma rodada de negociação da Campanha Salarial dos Bancários. É preciso dizer que mesmo com lucros bilionários, os banqueiros querem cortar direitos dos trabalhadores! Os bancários merecem respeito!
+                            #BancosExploram #Bancarios</p>
+                    </div>
+                    <iframe src="https://www.youtube.com/embed/e9-1Pt-diQY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="container">
+                        <h4><b>SOLIDARIEDADE AOS BANCÁRIOS</b></h4>
+                        <p>Seguimos na luta e hoje acontece mais uma rodada de negociação da Campanha Salarial dos Bancários. É preciso dizer que mesmo com lucros bilionários, os banqueiros querem cortar direitos dos trabalhadores! Os bancários merecem respeito!
+                            #BancosExploram #Bancarios</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="coluna">
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/8hC8CYJmpso" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="container">
+                        <h4><b>TRANSPORTE PÚBLICO</b></h4>
+                        <p>Todos os dias, milhares de pessoas precisam do transporte público para trabalhar e enfrentar os desafios do seu cotidiano e a jornada dentro dos ônibus muitas vezes é mais cansativa que o dia de trabalho em si.</p>
+
+                        <p>As linhas são insuficientes e os veículos mal conservados. É preciso ter a coragem para debater o assunto com seriedade.</p>
+
+                        <p>Estamos juntos nessa luta!</p>
+                    </div>
+                </div>
+                <div class="espaco">-</div>
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/qgxV779gGNY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="container">
+                        <h4><b>SOLIDARIEDADE AOS BANCÁRIOS</b></h4>
+                        <p>01 Seguimos na luta e hoje acontece mais uma rodada de negociação da Campanha Salarial dos Bancários. É preciso dizer que mesmo com lucros bilionários, os banqueiros querem cortar direitos dos trabalhadores! Os bancários merecem
+                            respeito! #BancosExploram #Bancarios</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+/* Início da Galeria de Videos */
+
+.linha {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.coluna {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.video {
+    padding: 0.5em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    background-color: white;
+}
+
+.container {
+    padding: 0.5em;
+}
+
+.video:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 800px) {
+    .coluna {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .coluna {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
